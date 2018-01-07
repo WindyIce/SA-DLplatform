@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frame_query"
+    tools:context="com.windyice.sahomework.QueryFragment">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <Spinner
+        android:id="@+id/choose_paper_spinner"
+        android:layout_marginTop="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"></Spinner>
+    <Spinner
+        android:id="@+id/subtheme_spinner"
+        android:layout_width="300sp"
+        android:layout_height="50sp"></Spinner>
+
+    <Button
+        android:id="@+id/choose_paper_button"
+        android:background="@color/nearlyWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/display"
+        android:layout_gravity="end" />
+
+    <TextView
+        android:id="@+id/paper_textview"
+        android:layout_marginTop="100sp"
+        android:textSize="25sp"
+        android:textColor="@color/darkPurple"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="410sp" />
+
+
+
+</FrameLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DL</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="windyice_present">WindyIce present</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_title">深度学习论文分析平台</string>
+    <string name="present_by_windyice">Present by WindyIce</string>
+    <string name="query">查询</string>
+    <string name="aboutUs">关于我们</string>
+    <string name="display">显示</string>
+    <string name="snow">snow</string>
+</resources>

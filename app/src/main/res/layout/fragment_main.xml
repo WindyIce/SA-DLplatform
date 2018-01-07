@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frame_main"
+    tools:context="com.windyice.sahomework.MainFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_title"
+        android:textColor="@color/darkPurple"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <TextView
+        android:layout_width="234dp"
+        android:layout_height="80dp"
+        android:text="@string/present_by_windyice"
+        android:layout_gravity="bottom"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="460dp" />
+
+</FrameLayout>
